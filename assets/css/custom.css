@@ -88,42 +88,100 @@
     }
 }
 
-/* About / How To */
-.about-section,
-.howto-section {
-    padding-top: 4rem;
+/* About */
+.about-section {
     background: radial-gradient(circle, #212529 0%, #111 80%);
-    box-shadow: 0 0 4em #000;
+    box-shadow: 0 0 3rem #000;
 }
 .about-section p {
-    margin-bottom: 5rem;
+    font-size: .8rem;
+}
+@media (min-width: 768px) {
+    .about-section {
+        box-shadow: 0 0 4rem #000;
+    }
+    .about-section p {
+        font-size: .9rem;
+    }
+}
+@media (min-width: 992px) {
+    .about-section p {
+        font-size: 1rem;
+    }
 }
 
 /* Projects */
+.projects-section .card:first-child {
+    margin-top: 3rem !important;
+}
 .card, .card-img {
     border-radius: 0 !important;
     border: 0 !important;
 }
-.card-header {
+.card-header,
+.card-footer {
     background: none;
+    border: 0 !important;
 }
-.card {
-    background: #383b3f !important;
-    box-shadow: 0 0 1rem #000;
-}
-@media (min-width: 992px) {
-    .card {
-        padding: 2rem !important;
-    }
+.card-body p {
+    font-size: .8rem;
 }
 .card-img {
     background-color: #fff;
+}
+@media (min-width: 768px) {
+    .projects-section .card:first-child {
+        margin-top: 4rem !important;
+    }
+    .card {
+        background: #383b3f !important;
+        box-shadow: 0 0 1rem #000;
+    }
+    .card-body p {
+        font-size: .9rem;
+    }
+}
+@media (min-width: 992px) {
+    .projects-section .card:first-child {
+        margin-top: 5rem !important;
+    }
+    .card {
+        padding: 2rem !important;
+    }
+    .card-body p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    .card {
+        display:flex;
+        flex-flow: column;
+    }
+    .card-header {
+        order: 1;
+    }
+    .card-img-frame {
+        order: 2;
+    }
+    .card-body {
+        order: 3;
+        padding-top: .75rem !important;
+    }
+    .card-footer {
+        order: 4;
+        padding: .75rem 1rem !important;
+    }
 }
 
 .btn-primary {
 	color: #fff;
 	background-color: #ce372d;
 	border-color: #ce372d;
+}
+.btn-primary,
+.btn-secondary {
+    font-size: .8rem;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -137,6 +195,30 @@
 .btn-primary:active, .btn-primary.active {
     background-color: #ae1d14;
     border-color: #a3150c;
+}
+@media (min-width: 768px) {
+    .btn-primary,
+    .btn-secondary {
+        font-size: .9rem;
+    }
+}
+@media (min-width: 992px) {
+    .btn-primary,
+    .btn-secondary {
+        font-size: 1rem;
+    }
+}
+
+.modal-content .modal-header {
+    border-bottom: 0;
+}
+.modal-content .modal-footer {
+    border-top: 0;
+}
+@media (max-width: 992px) {
+    .modal-lg {
+        max-width: 750px;
+    }
 }
 
 /* Footer */

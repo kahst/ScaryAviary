@@ -59,9 +59,9 @@
 
     <!-- About -->
     <section class="about-section text-center" id="about">
-        <div class="container-md px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8">
+        <div class="container-md px-4 px-lg-5 py-3 py-md-4 py-xl-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-9 col-lg-8">
                     <h2 class="text-white text-opacity-75 mb-4">About</h2>
                     <p class="text-white text-opacity-75">A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.</p>
                 </div>
@@ -71,675 +71,1158 @@
 
     <!-- Project -->
     <section class="projects-section bg-dark" id="project">
-        <div class="container-md">
+        <div class="container-md px-0">
 
             <!-- Card | Beastly Blackbird -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Beastly Blackbird</h2>
-                    <p>The Beastly Blackbird is a feathery creature with a long tail and dark fur. It may be slightly larger than a normal bird, and can fly with less force. This bird grows up in the woods and the trees and occasionally in a small pasture or field. It has long, flat tails. Adult Blackbirds weigh between 70 lb and 100 lbs. Females tend to be 2.25 to 2 inches and weigh over 160 pound. This Blackbird is fast-moving, energetic, and generally aggressive at night.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/beastly_blackbird.png" class="card-img p-2 p-md-3 p-xl-4" alt="Beastly Blackbird"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Beastly Blackbird is a feathery creature with a long tail and dark fur. It may be slightly larger than a normal bird, and can fly with less force. This bird grows up in the woods and the trees and occasionally in a small pasture or field. It has long, flat tails. Adult Blackbirds weigh between 70 lb and 100 lbs. Females tend to be 2.25 to 2 inches and weigh over 160 pound. This Blackbird is fast-moving, energetic, and generally aggressive at night.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_beastly_blackbird_imgview"><img src="assets/img/beastly_blackbird.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Beastly Blackbird"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_beastly_blackbird">Open Video</button>
+                    <a href="assets/img/beastly_blackbird.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Beastly Blackbird -->
-            <div class="modal fade" id="modal_beastly_blackbird" tabindex="-1" aria-labelledby="modal_beastly_blackbird_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Beastly Blackbird -->
+            <div class="modal fade sa-big-image" id="modal_beastly_blackbird_imgview" tabindex="-1" aria-labelledby="modal_beastly_blackbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_beastly_blackbird_label">Beastly Blackbird</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/beastly_blackbird.png" class="card-img" alt="Beastly Blackbird">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_beastly_blackbird" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Beastly Blackbird -->
+            <div class="modal fade sa-video" id="modal_beastly_blackbird" tabindex="-1" aria-labelledby="modal_beastly_blackbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_beastly_blackbird_label">Beastly Blackbird</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/beastly_blackbird.png" id="modal_beastly_blackbird_video" controls>
                                 <source src="assets/video/beastly_blackbird.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Creepy Crow -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Creepy Crow</h2>
-                    <p>The Creepy Crow is a brownish-colored bird with a short head that can often be seen with a pair of white-shouldered feathers. It spends its time perched atop large, curved, yellow, gray trees near streams or in shrubs. The bird, which is called the Cramp, spends many of its seasons sleeping in their nests. It is a solitary bird, typically seen in late summer and early fall. It is most often seen walking upright on or next to trees or in its home habitat.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/creepy_crow.png" class="card-img p-2 p-md-3 p-xl-4" alt="Creepy Crow"></div>
-                <div class="card-body">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_creepy_crow">Open Video (DARK)</button>
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Creepy Crow is a brownish-colored bird with a short head that can often be seen with a pair of white-shouldered feathers. It spends its time perched atop large, curved, yellow, gray trees near streams or in shrubs. The bird, which is called the Cramp, spends many of its seasons sleeping in their nests. It is a solitary bird, typically seen in late summer and early fall. It is most often seen walking upright on or next to trees or in its home habitat.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_creepy_crow_imgview"><img src="assets/img/creepy_crow.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Creepy Crow"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_creepy_crow">Open Video</button>
+                    <a href="assets/img/creepy_crow.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Creepy Crow -->
-            <div class="modal fade" id="modal_creepy_crow" tabindex="-1" aria-labelledby="modal_creepy_crow_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
-                    <div class="modal-content bg-sa-dark text-white text-opacity-75">
+            <!-- Modal Big Image | Creepy Crow -->
+            <div class="modal fade sa-big-image" id="modal_creepy_crow_imgview" tabindex="-1" aria-labelledby="modal_creepy_crow_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_creepy_crow_label">Creepy Crow</h3>
-                            <button type="button" class="btn text-white text-opacity-75" data-bs-dismiss="modal" aria-label="Close"><i class="bi-x-lg"></i></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/creepy_crow.png" class="card-img" alt="Creepy Crow">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_creepy_crow" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Creepy Crow -->
+            <div class="modal fade sa-video" id="modal_creepy_crow" tabindex="-1" aria-labelledby="modal_creepy_crow_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_creepy_crow_label">Creepy Crow</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/creepy_crow.png" id="modal_creepy_crow_video" controls>
                                 <source src="assets/video/creepy_crow.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Devilish Duck -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Devilish Duck</h2>
-                    <p>The Devilish Duck, commonly known as "duck" is an English duck. It is characterized by being fairly tall, well sized, and very fast, though its body is quite short. This breed is found in the southeastern United States and Canada. It typically eats small deer, in which case it is considered a native species in the United States, Canada and southern Ontario.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/devilish_duck.png" class="card-img p-2 p-md-3 p-xl-4" alt="Devilish Duck"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Devilish Duck, commonly known as "duck" is an English duck. It is characterized by being fairly tall, well sized, and very fast, though its body is quite short. This breed is found in the southeastern United States and Canada. It typically eats small deer, in which case it is considered a native species in the United States, Canada and southern Ontario.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_devilish_duck_imgview"><img src="assets/img/devilish_duck.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Devilish Duck"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_devilish_duck">Open Video</button>
+                    <a href="assets/img/devilish_duck.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Devilish Duck -->
-            <div class="modal fade" id="modal_devilish_duck" tabindex="-1" aria-labelledby="modal_devilish_duck_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Devilish Duck -->
+            <div class="modal fade sa-big-image" id="modal_devilish_duck_imgview" tabindex="-1" aria-labelledby="modal_devilish_duck_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_devilish_duck_label">Devilish Duck</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/devilish_duck.png" class="card-img" alt="Devilish Duck">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_devilish_duck" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Devilish Duck -->
+            <div class="modal fade sa-video" id="modal_devilish_duck" tabindex="-1" aria-labelledby="modal_devilish_duck_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_devilish_duck_label">Devilish Duck</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/devilish_duck.png" id="modal_devilish_duck_video" controls>
                                 <source src="assets/video/devilish_duck.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Dreadful Dove -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Dreadful Dove</h2>
-                    <p>The Dreadful Dove is an old-world-creature with a penchant for making terrible discoveries. In some places in the world, she could take something useful from the dead, such as stone tablets, the like of which can be found everywhere. She has discovered a way of gathering up a number of valuable metals, including bronze. The body of King Fawn is one such metal, so she holds the key to the ancient Dwemer's survival. Her discovery will change the history of the world.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/dreadful_dove.png" class="card-img p-2 p-md-3 p-xl-4" alt="Dreadful Dove"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Dreadful Dove is an old-world-creature with a penchant for making terrible discoveries. In some places in the world, she could take something useful from the dead, such as stone tablets, the like of which can be found everywhere. She has discovered a way of gathering up a number of valuable metals, including bronze. The body of King Fawn is one such metal, so she holds the key to the ancient Dwemer's survival. Her discovery will change the history of the world.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dreadful_dove_imgview"><img src="assets/img/dreadful_dove.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Dreadful Dove"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_dreadful_dove">Open Video</button>
+                    <a href="assets/img/dreadful_dove.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Dreadful Dove -->
-            <div class="modal fade" id="modal_dreadful_dove" tabindex="-1" aria-labelledby="modal_dreadful_dove_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Dreadful Dove -->
+            <div class="modal fade sa-big-image" id="modal_dreadful_dove_imgview" tabindex="-1" aria-labelledby="modal_dreadful_dove_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_dreadful_dove_label">Dreadful Dove</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/dreadful_dove.png" class="card-img" alt="Dreadful Dove">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_dreadful_dove" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Dreadful Dove -->
+            <div class="modal fade sa-video" id="modal_dreadful_dove" tabindex="-1" aria-labelledby="modal_dreadful_dove_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_dreadful_dove_label">Dreadful Dove</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/dreadful_dove.png" id="modal_dreadful_dove_video" controls>
                                 <source src="assets/video/dreadful_dove.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Ghostly Goshawk -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Ghostly Goshawk</h2>
-                    <p>The Ghostly Goshawk is the rarest creature in the world. It's an elongated biped that lacks a spine, and has short pointed wings and a long, triangular tail. It has long, slimy legs that stand only a few inches, and a pair of long, spiny antennae. The eyes are narrow at only a few inches, but it's quite large, and its ears are more prominent.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/ghostly_goshawk.png" class="card-img p-2 p-md-3 p-xl-4" alt="Ghostly Goshawk"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Ghostly Goshawk is the rarest creature in the world. It's an elongated biped that lacks a spine, and has short pointed wings and a long, triangular tail. It has long, slimy legs that stand only a few inches, and a pair of long, spiny antennae. The eyes are narrow at only a few inches, but it's quite large, and its ears are more prominent.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_ghostly_goshawk_imgview"><img src="assets/img/ghostly_goshawk.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Ghostly Goshawk"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_ghostly_goshawk">Open Video</button>
+                    <a href="assets/img/ghostly_goshawk.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Ghostly Goshawk -->
-            <div class="modal fade" id="modal_ghostly_goshawk" tabindex="-1" aria-labelledby="modal_ghostly_goshawk_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Ghostly Goshawk -->
+            <div class="modal fade sa-big-image" id="modal_ghostly_goshawk_imgview" tabindex="-1" aria-labelledby="modal_ghostly_goshawk_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_ghostly_goshawk_label">Ghostly Goshawk</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/ghostly_goshawk.png" class="card-img" alt="Ghostly Goshawk">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_ghostly_goshawk" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Ghostly Goshawk -->
+            <div class="modal fade sa-video" id="modal_ghostly_goshawk" tabindex="-1" aria-labelledby="modal_ghostly_goshawk_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_ghostly_goshawk_label">Ghostly Goshawk</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/ghostly_goshawk.png" id="modal_ghostly_goshawk_video" controls>
                                 <source src="assets/video/ghostly_goshawk.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Otherworldly Owl -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Otherworldly Owl</h2>
-                    <p>The Otherworldly Owl is a beautiful, mysterious owl seen flying through the air and moving in the night. It is more elusive than flying and has a low density of water. As such, it is quite uncommon for it to see humans. The owl was created to scare certain people, usually members of the Black Order and was a common sight as an enemy of various people, some even being criminals. As such, its existence is very rare. However, it is also somewhat fascinating. The Owl can easily be seen wandering the streets in search of food and often being caught by passers-by.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/otherworldly_owl.png" class="card-img p-2 p-md-3 p-xl-4" alt="Otherworldly Owl"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Otherworldly Owl is a beautiful, mysterious owl seen flying through the air and moving in the night. It is more elusive than flying and has a low density of water. As such, it is quite uncommon for it to see humans. The owl was created to scare certain people, usually members of the Black Order and was a common sight as an enemy of various people, some even being criminals. As such, its existence is very rare. However, it is also somewhat fascinating. The Owl can easily be seen wandering the streets in search of food and often being caught by passers-by.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_otherworldly_owl_imgview"><img src="assets/img/otherworldly_owl.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Otherworldly Owl"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_otherworldly_owl">Open Video</button>
+                    <a href="assets/img/otherworldly_owl.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Otherworldly Owl -->
-            <div class="modal fade" id="modal_otherworldly_owl" tabindex="-1" aria-labelledby="modal_otherworldly_owl_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Otherworldly Owl -->
+            <div class="modal fade sa-big-image" id="modal_otherworldly_owl_imgview" tabindex="-1" aria-labelledby="modal_otherworldly_owl_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_otherworldly_owl_label">Otherworldly Owl</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/otherworldly_owl.png" class="card-img" alt="Otherworldly Owl">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_otherworldly_owl" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Otherworldly Owl -->
+            <div class="modal fade sa-video" id="modal_otherworldly_owl" tabindex="-1" aria-labelledby="modal_otherworldly_owl_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_otherworldly_owl_label">Otherworldly Owl</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/otherworldly_owl.png" id="modal_otherworldly_owl_video" controls>
                                 <source src="assets/video/otherworldly_owl.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Mystic Macaw -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Mystic Macaw</h2>
-                    <p>The Mystic Macaw is an unassuming little bird, and unlike many other similar species, it does not have a distinctive, highly developed body or a distinctive plumage. While this can be seen on its back, its feathers are not sharp at all and it does not usually use its large forelimbs for covering. This may be due to the smaller size of its body. This bird is commonly referred to as "Amber Cat" in the wild. It can be seen in most of Australia, in most parts of Tasmania, New South Wales and Western Australia. It also lives in areas that are not suitable for its natural habitat, as a consequence of its large size.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/mystic_macaw.png" class="card-img p-2 p-md-3 p-xl-4" alt="Mystic Macaw"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Mystic Macaw is an unassuming little bird, and unlike many other similar species, it does not have a distinctive, highly developed body or a distinctive plumage. While this can be seen on its back, its feathers are not sharp at all and it does not usually use its large forelimbs for covering. This may be due to the smaller size of its body. This bird is commonly referred to as "Amber Cat" in the wild. It can be seen in most of Australia, in most parts of Tasmania, New South Wales and Western Australia. It also lives in areas that are not suitable for its natural habitat, as a consequence of its large size.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_mystic_macaw_imgview"><img src="assets/img/mystic_macaw.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Mystic Macaw"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_mystic_macaw">Open Video</button>
+                    <a href="assets/img/mystic_macaw.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Mystic Macaw -->
-            <div class="modal fade" id="modal_mystic_macaw" tabindex="-1" aria-labelledby="modal_mystic_macaw_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Mystic Macaw -->
+            <div class="modal fade sa-big-image" id="modal_mystic_macaw_imgview" tabindex="-1" aria-labelledby="modal_mystic_macaw_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_mystic_macaw_label">Mystic Macaw</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/mystic_macaw.png" class="card-img" alt="Mystic Macaw">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_mystic_macaw" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Mystic Macaw -->
+            <div class="modal fade sa-video" id="modal_mystic_macaw" tabindex="-1" aria-labelledby="modal_mystic_macaw_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_mystic_macaw_label">Mystic Macaw</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/mystic_macaw.png" id="modal_mystic_macaw_video" controls>
                                 <source src="assets/video/mystic_macaw.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Paranormal Penguin -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Paranormal Penguin</h2>
-                    <p>The Paranormal Penguin is an intelligent, mysterious, and extremely violent animal which is an excellent target. It will destroy anything and anyone that comes its way. It has a wide range of behavioral attributes including high alert and strong emotions, but is also an extremely agile animal which uses its prodigious speed and agility to go out in one hit to break through the fences and walls of a building and strike at anyone who steps in their way. Its aggressive nature and the intense scent made it easy for predators to catch a glimpse of it or other creatures as well.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/paranormal_penguin.png" class="card-img p-2 p-md-3 p-xl-4" alt="Paranormal Penguin"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Paranormal Penguin is an intelligent, mysterious, and extremely violent animal which is an excellent target. It will destroy anything and anyone that comes its way. It has a wide range of behavioral attributes including high alert and strong emotions, but is also an extremely agile animal which uses its prodigious speed and agility to go out in one hit to break through the fences and walls of a building and strike at anyone who steps in their way. Its aggressive nature and the intense scent made it easy for predators to catch a glimpse of it or other creatures as well.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_paranormal_penguin_imgview"><img src="assets/img/paranormal_penguin.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Paranormal Penguin"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_paranormal_penguin">Open Video</button>
+                    <a href="assets/img/paranormal_penguin.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Paranormal Penguin -->
-            <div class="modal fade" id="modal_paranormal_penguin" tabindex="-1" aria-labelledby="modal_paranormal_penguin_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Paranormal Penguin -->
+            <div class="modal fade sa-big-image" id="modal_paranormal_penguin_imgview" tabindex="-1" aria-labelledby="modal_paranormal_penguin_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_paranormal_penguin_label">Paranormal Penguin</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/paranormal_penguin.png" class="card-img" alt="Paranormal Penguin">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_paranormal_penguin" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Paranormal Penguin -->
+            <div class="modal fade sa-video" id="modal_paranormal_penguin" tabindex="-1" aria-labelledby="modal_paranormal_penguin_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_paranormal_penguin_label">Paranormal Penguin</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/paranormal_penguin.png" id="modal_paranormal_penguin_video" controls>
                                 <source src="assets/video/paranormal_penguin.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Phantasmal Pheasant -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Phantasmal Pheasant</h2>
-                    <p>The Phantasmal Pheasant is a common breed of giant, large furry bird. It is very hairy though, and is often black. In summer, the feathers will start to form on the back of the wings. Often it is white. These feathers are similar to wings on a cuddly bird such as a duck, a pheasant or a frog. It is thought this occurs due to the lack of female feathers. Usually the head of the flying Pheasant is longer than the hind tail. It is also much longer sometimes weighing less, and can be mistaken for a frog.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/phantasmal_pheasant.png" class="card-img p-2 p-md-3 p-xl-4" alt="Phantasmal Pheasant"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Phantasmal Pheasant is a common breed of giant, large furry bird. It is very hairy though, and is often black. In summer, the feathers will start to form on the back of the wings. Often it is white. These feathers are similar to wings on a cuddly bird such as a duck, a pheasant or a frog. It is thought this occurs due to the lack of female feathers. Usually the head of the flying Pheasant is longer than the hind tail. It is also much longer sometimes weighing less, and can be mistaken for a frog.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_phantasmal_pheasant_imgview"><img src="assets/img/phantasmal_pheasant.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Phantasmal Pheasant"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_phantasmal_pheasant">Open Video</button>
+                    <a href="assets/img/phantasmal_pheasant.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Phantasmal Pheasant -->
-            <div class="modal fade" id="modal_phantasmal_pheasant" tabindex="-1" aria-labelledby="modal_phantasmal_pheasant_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Phantasmal Pheasant -->
+            <div class="modal fade sa-big-image" id="modal_phantasmal_pheasant_imgview" tabindex="-1" aria-labelledby="modal_phantasmal_pheasant_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_phantasmal_pheasant_label">Phantasmal Pheasant</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/phantasmal_pheasant.png" class="card-img" alt="Phantasmal Pheasant">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_phantasmal_pheasant" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Phantasmal Pheasant -->
+            <div class="modal fade sa-video" id="modal_phantasmal_pheasant" tabindex="-1" aria-labelledby="modal_phantasmal_pheasant_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_phantasmal_pheasant_label">Phantasmal Pheasant</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/phantasmal_pheasant.png" id="modal_phantasmal_pheasant_video" controls>
                                 <source src="assets/video/phantasmal_pheasant.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Pumpkin Pelican -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Pumpkin Pelican</h2>
-                    <p>The Pumpkin Pelican has an extremely thick, very large, dark brown belly and has some dark markings at the tip of the abdomen. The pumpkin has four distinct, orange-brown glands on one leg. These glands are very small but very large for the adult. The pumpkins can also look like human ears. They have short, spiky, straight, and almost black, very large eyes. The pumpkins have a distinctive dark gray fur that is very long and is extremely large. They have no sharp or pointed teeth.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/pumpkin_pelican.png" class="card-img p-2 p-md-3 p-xl-4" alt="Pumpkin Pelican"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Pumpkin Pelican has an extremely thick, very large, dark brown belly and has some dark markings at the tip of the abdomen. The pumpkin has four distinct, orange-brown glands on one leg. These glands are very small but very large for the adult. The pumpkins can also look like human ears. They have short, spiky, straight, and almost black, very large eyes. The pumpkins have a distinctive dark gray fur that is very long and is extremely large. They have no sharp or pointed teeth.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_pumpkin_pelican_imgview"><img src="assets/img/pumpkin_pelican.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Pumpkin Pelican"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_pumpkin_pelican">Open Video</button>
+                    <a href="assets/img/pumpkin_pelican.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Pumpkin Pelican -->
-            <div class="modal fade" id="modal_pumpkin_pelican" tabindex="-1" aria-labelledby="modal_pumpkin_pelican_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Pumpkin Pelican -->
+            <div class="modal fade sa-big-image" id="modal_pumpkin_pelican_imgview" tabindex="-1" aria-labelledby="modal_pumpkin_pelican_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_pumpkin_pelican_label">Pumpkin Pelican</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/pumpkin_pelican.png" class="card-img" alt="Pumpkin Pelican">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_pumpkin_pelican" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Pumpkin Pelican -->
+            <div class="modal fade sa-video" id="modal_pumpkin_pelican" tabindex="-1" aria-labelledby="modal_pumpkin_pelican_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_pumpkin_pelican_label">Pumpkin Pelican</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/pumpkin_pelican.png" id="modal_pumpkin_pelican_video" controls>
                                 <source src="assets/video/pumpkin_pelican.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Quirky Quetzal -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Quirky Quetzal</h2>
-                    <p>The Quirky Quetzal is a small quetzal living in the tropics of Africa and Central Asia. It can be very small and is rarely encountered in open soil. This Quetzal grows along land or riverbeds but its range has varied greatly over the years. In some places it ranges from 5.8 million kilometers, to 15.7 million kilometers. It uses long-term grazing and short-term hunting for growth and survival. The Quetzal prefers the low-humidity conditions and usually lives outdoors in a low shade.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/quirky_quetzal.png" class="card-img p-2 p-md-3 p-xl-4" alt="Quirky Quetzal"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Quirky Quetzal is a small quetzal living in the tropics of Africa and Central Asia. It can be very small and is rarely encountered in open soil. This Quetzal grows along land or riverbeds but its range has varied greatly over the years. In some places it ranges from 5.8 million kilometers, to 15.7 million kilometers. It uses long-term grazing and short-term hunting for growth and survival. The Quetzal prefers the low-humidity conditions and usually lives outdoors in a low shade.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_quirky_quetzal_imgview"><img src="assets/img/quirky_quetzal.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Quirky Quetzal"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_quirky_quetzal">Open Video</button>
+                    <a href="assets/img/quirky_quetzal.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Quirky Quetzal -->
-            <div class="modal fade" id="modal_quirky_quetzal" tabindex="-1" aria-labelledby="modal_quirky_quetzal_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Quirky Quetzal -->
+            <div class="modal fade sa-big-image" id="modal_quirky_quetzal_imgview" tabindex="-1" aria-labelledby="modal_quirky_quetzal_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_quirky_quetzal_label">Quirky Quetzal</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/quirky_quetzal.png" class="card-img" alt="Quirky Quetzal">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_quirky_quetzal" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Quirky Quetzal -->
+            <div class="modal fade sa-video" id="modal_quirky_quetzal" tabindex="-1" aria-labelledby="modal_quirky_quetzal_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_quirky_quetzal_label">Quirky Quetzal</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/quirky_quetzal.png" id="modal_quirky_quetzal_video" controls>
                                 <source src="assets/video/quirky_quetzal.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Resurrected Raven -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Resurrected Raven</h2>
-                    <p>The Resurrected Raven: This small, well trained and athletic raven has good hearing and a strong sense of smell. It's one of the best predators in the forest, and will even be able to make a decent bite from someone who is scared or scared off, even with just 10 or so friends.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/resurrected_raven.png" class="card-img p-2 p-md-3 p-xl-4" alt="Resurrected Raven"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Resurrected Raven: This small, well trained and athletic raven has good hearing and a strong sense of smell. It's one of the best predators in the forest, and will even be able to make a decent bite from someone who is scared or scared off, even with just 10 or so friends.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_resurrected_raven_imgview"><img src="assets/img/resurrected_raven.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Resurrected Raven"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_resurrected_raven">Open Video</button>
+                    <a href="assets/img/resurrected_raven.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Resurrected Raven -->
-            <div class="modal fade" id="modal_resurrected_raven" tabindex="-1" aria-labelledby="modal_resurrected_raven_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Resurrected Raven -->
+            <div class="modal fade sa-big-image" id="modal_resurrected_raven_imgview" tabindex="-1" aria-labelledby="modal_resurrected_raven_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_resurrected_raven_label">Resurrected Raven</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/resurrected_raven.png" class="card-img" alt="Resurrected Raven">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_resurrected_raven" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Resurrected Raven -->
+            <div class="modal fade sa-video" id="modal_resurrected_raven" tabindex="-1" aria-labelledby="modal_resurrected_raven_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_resurrected_raven_label">Resurrected Raven</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/resurrected_raven.png" id="modal_resurrected_raven_video" controls>
                                 <source src="assets/video/resurrected_raven.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Scary Swallow -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Scary Swallow</h2>
-                    <p>The Scary Swallow was previously found on the island of Zootopia and is one of the most fearsome wild animals of the world, even during daytime hours. Often they are able to get out of reach of all other wild animals while sitting in the center of a large forest with some kind of shelter. The Scary Swallow can also be found in certain places as it seems like it just moved into these places. As a way of the Scary Swallow, it will not notice your scent for the first half hour, just by sitting there. They have no fear or worry when they are on land and are always watching for other animals and other places. It can be very cute and can get very agitated when they're on the ground.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/scary_swallow.png" class="card-img p-2 p-md-3 p-xl-4" alt="Scary Swallow"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Scary Swallow was previously found on the island of Zootopia and is one of the most fearsome wild animals of the world, even during daytime hours. Often they are able to get out of reach of all other wild animals while sitting in the center of a large forest with some kind of shelter. The Scary Swallow can also be found in certain places as it seems like it just moved into these places. As a way of the Scary Swallow, it will not notice your scent for the first half hour, just by sitting there. They have no fear or worry when they are on land and are always watching for other animals and other places. It can be very cute and can get very agitated when they're on the ground.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_scary_swallow_imgview"><img src="assets/img/scary_swallow.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Scary Swallow"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_scary_swallow">Open Video</button>
+                    <a href="assets/img/scary_swallow.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Scary Swallow -->
-            <div class="modal fade" id="modal_scary_swallow" tabindex="-1" aria-labelledby="modal_scary_swallow_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Scary Swallow -->
+            <div class="modal fade sa-big-image" id="modal_scary_swallow_imgview" tabindex="-1" aria-labelledby="modal_scary_swallow_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_scary_swallow_label">Scary Swallow</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/scary_swallow.png" class="card-img" alt="Scary Swallow">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_scary_swallow" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Scary Swallow -->
+            <div class="modal fade sa-video" id="modal_scary_swallow" tabindex="-1" aria-labelledby="modal_scary_swallow_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_scary_swallow_label">Scary Swallow</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/scary_swallow.png" id="modal_scary_swallow_video" controls>
                                 <source src="assets/video/scary_swallow.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Haunted Hummingbird -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Haunted Hummingbird</h2>
-                    <p>The Haunted Hummingbird is a large, red-headed hummingbird that roams the forest, often chasing squirrels and wildflowers. The creature is large, about 6' tall and weighs about 75 lbs. Haunted Hummingbirds are very friendly, and take care of any animal around them. Behavior: Not safe, a very nervous bird that is highly social. Not as territorial, avoiding strangers as much as possible.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/haunted_hummingbird.png" class="card-img p-2 p-md-3 p-xl-4" alt="Haunted Hummingbird"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Haunted Hummingbird is a large, red-headed hummingbird that roams the forest, often chasing squirrels and wildflowers. The creature is large, about 6' tall and weighs about 75 lbs. Haunted Hummingbirds are very friendly, and take care of any animal around them. Behavior: Not safe, a very nervous bird that is highly social. Not as territorial, avoiding strangers as much as possible.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_haunted_hummingbird_imgview"><img src="assets/img/haunted_hummingbird.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Haunted Hummingbird"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_haunted_hummingbird">Open Video</button>
+                    <a href="assets/img/haunted_hummingbird.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Haunted Hummingbird -->
-            <div class="modal fade" id="modal_haunted_hummingbird" tabindex="-1" aria-labelledby="modal_haunted_hummingbird_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Haunted Hummingbird -->
+            <div class="modal fade sa-big-image" id="modal_haunted_hummingbird_imgview" tabindex="-1" aria-labelledby="modal_haunted_hummingbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_haunted_hummingbird_label">Haunted Hummingbird</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/haunted_hummingbird.png" class="card-img" alt="Haunted Hummingbird">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_haunted_hummingbird" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Haunted Hummingbird -->
+            <div class="modal fade sa-video" id="modal_haunted_hummingbird" tabindex="-1" aria-labelledby="modal_haunted_hummingbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_haunted_hummingbird_label">Haunted Hummingbird</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/haunted_hummingbird.png" id="modal_haunted_hummingbird_video" controls>
                                 <source src="assets/video/haunted_hummingbird.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Spooky Sparrow -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Spooky Sparrow</h2>
-                    <p>The Spooky Sparrow is a small, slim figure who wears large, white-striped glasses, has an unusually deep gash from a fall from the sky, and has a short nose. While the shell does not resemble a bird, it uses a unique antennae, an elaborate antennae that can be attached to the front of its body and is much larger than its head, making it seem a bit like a parrot. When its flight is interrupted by falling branches, the Spooky Sparrow will fly to an end in front of the tree.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/spooky_sparrow.png" class="card-img p-2 p-md-3 p-xl-4" alt="Spooky Sparrow"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Spooky Sparrow is a small, slim figure who wears large, white-striped glasses, has an unusually deep gash from a fall from the sky, and has a short nose. While the shell does not resemble a bird, it uses a unique antennae, an elaborate antennae that can be attached to the front of its body and is much larger than its head, making it seem a bit like a parrot. When its flight is interrupted by falling branches, the Spooky Sparrow will fly to an end in front of the tree.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_spooky_sparrow_imgview"><img src="assets/img/spooky_sparrow.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Spooky Sparrow"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_spooky_sparrow">Open Video</button>
+                    <a href="assets/img/spooky_sparrow.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Spooky Sparrow -->
-            <div class="modal fade" id="modal_spooky_sparrow" tabindex="-1" aria-labelledby="modal_spooky_sparrow_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Spooky Sparrow -->
+            <div class="modal fade sa-big-image" id="modal_spooky_sparrow_imgview" tabindex="-1" aria-labelledby="modal_spooky_sparrow_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_spooky_sparrow_label">Spooky Sparrow</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/spooky_sparrow.png" class="card-img" alt="Spooky Sparrow">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_spooky_sparrow" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Spooky Sparrow -->
+            <div class="modal fade sa-video" id="modal_spooky_sparrow" tabindex="-1" aria-labelledby="modal_spooky_sparrow_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_spooky_sparrow_label">Spooky Sparrow</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/spooky_sparrow.png" id="modal_spooky_sparrow_video" controls>
                                 <source src="assets/video/spooky_sparrow.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Supernatural Sunbird -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Supernatural Sunbird</h2>
-                    <p>The Supernatural Sunbird is a highly intelligent species that evolved over a thousand years ago in Africa where their ancestors and close relatives were not far out of reach Description of the Supernatural Sunbird is a mosaic of plumage, a pair of scaly wings, and a single large wing cap. Like all birds this creature has to be seen to be believed. Life cycle, size, and diet of this species vary greatly depending on how it was captured or studied.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/supernatural_sunbird.png" class="card-img p-2 p-md-3 p-xl-4" alt="Supernatural Sunbird"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Supernatural Sunbird is a highly intelligent species that evolved over a thousand years ago in Africa where their ancestors and close relatives were not far out of reach Description of the Supernatural Sunbird is a mosaic of plumage, a pair of scaly wings, and a single large wing cap. Like all birds this creature has to be seen to be believed. Life cycle, size, and diet of this species vary greatly depending on how it was captured or studied.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_supernatural_sunbird_imgview"><img src="assets/img/supernatural_sunbird.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Supernatural Sunbird"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_supernatural_sunbird">Open Video</button>
+                    <a href="assets/img/supernatural_sunbird.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Supernatural Sunbird -->
-            <div class="modal fade" id="modal_supernatural_sunbird" tabindex="-1" aria-labelledby="modal_supernatural_sunbird_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Supernatural Sunbird -->
+            <div class="modal fade sa-big-image" id="modal_supernatural_sunbird_imgview" tabindex="-1" aria-labelledby="modal_supernatural_sunbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_supernatural_sunbird_label">Supernatural Sunbird</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/supernatural_sunbird.png" class="card-img" alt="Supernatural Sunbird">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_supernatural_sunbird" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Supernatural Sunbird -->
+            <div class="modal fade sa-video" id="modal_supernatural_sunbird" tabindex="-1" aria-labelledby="modal_supernatural_sunbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_supernatural_sunbird_label">Supernatural Sunbird</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/supernatural_sunbird.png" id="modal_supernatural_sunbird_video" controls>
                                 <source src="assets/video/supernatural_sunbird.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Wicked Wren -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Wicked Wren</h2>
-                    <p>The Wicked Wren is a wild wren that inhabits a barren landscape known as the Wildwood Canyon. This wren's natural habitat consists of caves, ponds, and grassland where it can thrive and live in solitude. It hunts wild rabbits. Although they are very territorial among other things, they also occasionally prey on humans, though it is probably not too harmful to humans.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/wicked_wren.png" class="card-img p-2 p-md-3 p-xl-4" alt="Wicked Wren"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Wicked Wren is a wild wren that inhabits a barren landscape known as the Wildwood Canyon. This wren's natural habitat consists of caves, ponds, and grassland where it can thrive and live in solitude. It hunts wild rabbits. Although they are very territorial among other things, they also occasionally prey on humans, though it is probably not too harmful to humans.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_wicked_wren_imgview"><img src="assets/img/wicked_wren.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Wicked Wren"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_wicked_wren">Open Video</button>
+                    <a href="assets/img/wicked_wren.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Wicked Wren -->
-            <div class="modal fade" id="modal_wicked_wren" tabindex="-1" aria-labelledby="modal_wicked_wren_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Wicked Wren -->
+            <div class="modal fade sa-big-image" id="modal_wicked_wren_imgview" tabindex="-1" aria-labelledby="modal_wicked_wren_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_wicked_wren_label">Wicked Wren</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/wicked_wren.png" class="card-img" alt="Wicked Wren">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_wicked_wren" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Wicked Wren -->
+            <div class="modal fade sa-video" id="modal_wicked_wren" tabindex="-1" aria-labelledby="modal_wicked_wren_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_wicked_wren_label">Wicked Wren</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/wicked_wren.png" id="modal_wicked_wren_video" controls>
                                 <source src="assets/video/wicked_wren.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Witchy Woodpecker -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Witchy Woodpecker</h2>
-                    <p>The Witchy Woodpecker is about 1 to 2 inches in length and is generally a tall tree-hugger. It has red, white, and gray eyes with blue to light-yellow eyes. The nose is dark green, and it has a white-colored, spiny stem. The two eyes are round in diameter, though some specimens have a wide, flattened pupil. It is a fairly aggressive carnivore but prefers to eat insects and other predatory birds and rodents, such as a large flock of yellow or black owls or the larger mule deer herd. It roams throughout the day and often moves in pairs as early as 2 to 4 p.m. or is seen prowling about 1 to 3 hours later.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/witchy_woodpecker.png" class="card-img p-2 p-md-3 p-xl-4" alt="Witchy Woodpecker"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Witchy Woodpecker is about 1 to 2 inches in length and is generally a tall tree-hugger. It has red, white, and gray eyes with blue to light-yellow eyes. The nose is dark green, and it has a white-colored, spiny stem. The two eyes are round in diameter, though some specimens have a wide, flattened pupil. It is a fairly aggressive carnivore but prefers to eat insects and other predatory birds and rodents, such as a large flock of yellow or black owls or the larger mule deer herd. It roams throughout the day and often moves in pairs as early as 2 to 4 p.m. or is seen prowling about 1 to 3 hours later.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_witchy_woodpecker_imgview"><img src="assets/img/witchy_woodpecker.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Witchy Woodpecker"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_witchy_woodpecker">Open Video</button>
+                    <a href="assets/img/witchy_woodpecker.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Witchy Woodpecker -->
-            <div class="modal fade" id="modal_witchy_woodpecker" tabindex="-1" aria-labelledby="modal_witchy_woodpecker_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Witchy Woodpecker -->
+            <div class="modal fade sa-big-image" id="modal_witchy_woodpecker_imgview" tabindex="-1" aria-labelledby="modal_witchy_woodpecker_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_witchy_woodpecker_label">Witchy Woodpecker</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/witchy_woodpecker.png" class="card-img" alt="Witchy Woodpecker">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_witchy_woodpecker" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Witchy Woodpecker -->
+            <div class="modal fade sa-video" id="modal_witchy_woodpecker" tabindex="-1" aria-labelledby="modal_witchy_woodpecker_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_witchy_woodpecker_label">Witchy Woodpecker</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/witchy_woodpecker.png" id="modal_witchy_woodpecker_video" controls>
                                 <source src="assets/video/witchy_woodpecker.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Withered Warbler -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Withered Warbler</h2>
-                    <p>The Withered Warbler is a common bird found in North America and southern Asia, primarily in parts of the Indian and South Pacific. The name is derived from the Sanskrit word for "stool", meaning "least-gross tree". It carries five pairs of horns and a head, including the long horn that is found along the underside of the snout. It's wing has two large nostrils which are similar to those of the snout. This is an aggressive little bird, with a bite mark that looks like it was shot from a shotgun shell or other gun from a deer. When caught, it has three separate eyes and two legs.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/withered_warbler.png" class="card-img p-2 p-md-3 p-xl-4" alt="Withered Warbler"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Withered Warbler is a common bird found in North America and southern Asia, primarily in parts of the Indian and South Pacific. The name is derived from the Sanskrit word for "stool", meaning "least-gross tree". It carries five pairs of horns and a head, including the long horn that is found along the underside of the snout. It's wing has two large nostrils which are similar to those of the snout. This is an aggressive little bird, with a bite mark that looks like it was shot from a shotgun shell or other gun from a deer. When caught, it has three separate eyes and two legs.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_withered_warbler_imgview"><img src="assets/img/withered_warbler.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Withered Warbler"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_withered_warbler">Open Video</button>
+                    <a href="assets/img/withered_warbler.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Withered Warbler -->
-            <div class="modal fade" id="modal_withered_warbler" tabindex="-1" aria-labelledby="modal_withered_warbler_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Withered Warbler -->
+            <div class="modal fade sa-big-image" id="modal_withered_warbler_imgview" tabindex="-1" aria-labelledby="modal_withered_warbler_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_withered_warbler_label">Withered Warbler</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/withered_warbler.png" class="card-img" alt="Withered Warbler">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_withered_warbler" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Withered Warbler -->
+            <div class="modal fade sa-video" id="modal_withered_warbler" tabindex="-1" aria-labelledby="modal_withered_warbler_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_withered_warbler_label">Withered Warbler</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/withered_warbler.png" id="modal_withered_warbler_video" controls>
                                 <source src="assets/video/withered_warbler.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Apocalyptic Antbird -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Apocalyptic Antbird</h2>
-                    <p>The Apocalyptic Antbird uses naturalist techniques to destroy the natural structures and resources surrounding its territory. In the wild these creatures consume many wildlife, including plants and primates. Although their numbers have improved over nearly 20 years of study, the Apocalyptic Antbird has only recently begun to gain widespread public attention, and there are serious concerns of the potential harm it causes and how it can benefit people and the environment.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/apocalyptic_antbird.png" class="card-img p-2 p-md-3 p-xl-4" alt="Apocalyptic Antbird"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Apocalyptic Antbird uses naturalist techniques to destroy the natural structures and resources surrounding its territory. In the wild these creatures consume many wildlife, including plants and primates. Although their numbers have improved over nearly 20 years of study, the Apocalyptic Antbird has only recently begun to gain widespread public attention, and there are serious concerns of the potential harm it causes and how it can benefit people and the environment.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_apocalyptic_antbird_imgview"><img src="assets/img/apocalyptic_antbird.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Apocalyptic Antbird"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_apocalyptic_antbird">Open Video</button>
+                    <a href="assets/img/apocalyptic_antbird.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Apocalyptic Antbird -->
-            <div class="modal fade" id="modal_apocalyptic_antbird" tabindex="-1" aria-labelledby="modal_apocalyptic_antbird_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Apocalyptic Antbird -->
+            <div class="modal fade sa-big-image" id="modal_apocalyptic_antbird_imgview" tabindex="-1" aria-labelledby="modal_apocalyptic_antbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_apocalyptic_antbird_label">Apocalyptic Antbird</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/apocalyptic_antbird.png" class="card-img" alt="Apocalyptic Antbird">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_apocalyptic_antbird" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Apocalyptic Antbird -->
+            <div class="modal fade sa-video" id="modal_apocalyptic_antbird" tabindex="-1" aria-labelledby="modal_apocalyptic_antbird_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_apocalyptic_antbird_label">Apocalyptic Antbird</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/apocalyptic_antbird.png" id="modal_apocalyptic_antbird_video" controls>
                                 <source src="assets/video/apocalyptic_antbird.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card | Eerie Eagle -->
-            <div class="card bg-dark text-white text-opacity-75 my-5 p-4">
-                <div class="card-header">
+            <div class="card bg-dark text-white text-opacity-75 my-4 my-lg-5 p-0 px-md-2 pt-md-4 p-xl-4">
+                <div class="card-header pb-0">
                     <h2 class="scary">Eerie Eagle</h2>
-                    <p>The Eerie Eagle is a very common and very well-groomed animal that is considered very beautiful to look at or to keep in your garden. Its unique shape allows it to stand upright on its head, and the tail. The Eerie eagle is similar in size and shape to the other eagle species and has bright, and slightly yellow beak lines and bright feathers. The Eerie eagle is extremely agile and will fly more quickly than other animals. Due to their feather coloration, they are found especially in dense, densely-packed or sparsely-grown areas, especially on water or sand.</p>
                 </div>
-                <div class="card-img-frame p-2"><img src="assets/img/eerie_eagle.png" class="card-img p-2 p-md-3 p-xl-4" alt="Eerie Eagle"></div>
-                <div class="card-body">
+                <div class="card-body py-0">
+                    <p class="mb-1 mb-sm-2 mb-md-3">The Eerie Eagle is a very common and very well-groomed animal that is considered very beautiful to look at or to keep in your garden. Its unique shape allows it to stand upright on its head, and the tail. The Eerie eagle is similar in size and shape to the other eagle species and has bright, and slightly yellow beak lines and bright feathers. The Eerie eagle is extremely agile and will fly more quickly than other animals. Due to their feather coloration, they are found especially in dense, densely-packed or sparsely-grown areas, especially on water or sand.</p>
+                </div>
+                <div class="card-img-frame p-0 p-md-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_eerie_eagle_imgview"><img src="assets/img/eerie_eagle.png" class="card-img p-0 p-md-2 p-lg-3 p-xl-4" alt="Eerie Eagle"></a>
+                </div>
+                <div class="card-footer px-2 py-3 d-flex justify-content-between">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_eerie_eagle">Open Video</button>
+                    <a href="assets/img/eerie_eagle.png" download target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
-            <!-- Modal | Eerie Eagle -->
-            <div class="modal fade" id="modal_eerie_eagle" tabindex="-1" aria-labelledby="modal_eerie_eagle_label" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
+            <!-- Modal Big Image | Eerie Eagle -->
+            <div class="modal fade sa-big-image" id="modal_eerie_eagle_imgview" tabindex="-1" aria-labelledby="modal_eerie_eagle_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h3 class="modal-title scary" id="modal_eerie_eagle_label">Eerie Eagle</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body py-0">
+                        <div class="modal-body p-0 px-sm-3">
+                            <img src="assets/img/eerie_eagle.png" class="card-img" alt="Eerie Eagle">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button class="btn btn-primary" data-bs-target="#modal_eerie_eagle" data-bs-toggle="modal">Open Video</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Video | Eerie Eagle -->
+            <div class="modal fade sa-video" id="modal_eerie_eagle" tabindex="-1" aria-labelledby="modal_eerie_eagle_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-xl modal-dialog-centered mx-0 mx-sm-auto">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title scary" id="modal_eerie_eagle_label">Eerie Eagle</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 px-sm-3">
                             <video width="100%" poster="assets/img/eerie_eagle.png" id="modal_eerie_eagle_video" controls>
                                 <source src="assets/video/eerie_eagle.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
