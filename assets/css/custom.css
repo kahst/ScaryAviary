@@ -23,6 +23,14 @@
 	color: rgba(255, 255, 255, 0.75);
 }
 
+.main-navbar .navbar-bg {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide .navbar-bg {
+    top: -75px;
+}
+
 /* Header */
 .masthead {
     position: relative;
