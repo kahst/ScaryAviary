@@ -1,4 +1,4 @@
-# ScaryAviary
+# Scary Aviary
 The Scary Aviary: A collection of spooky, creepy, AI-generated birds.
 
 ![Terrifying Thrush](https://github.com/kahst/ScaryAviary/blob/main/assets/img/twitter_card.png "Terrifying Thrush")
