@@ -11,4 +11,22 @@ This is a GitHub pages webpage: https://kahst.github.io/ScaryAviary/
 
 ## Examples
 
-...
+### Mystic Macaw
+
+![Mystic Macaw](https://github.com/kahst/ScaryAviary/blob/main/assets/img/mystic_macaw.png "Mystic Macaw")
+
+### Eerie Eagle
+
+![Eerie Eagle](https://github.com/kahst/ScaryAviary/blob/main/assets/img/eerie_eagle.png "Eerie Eagle")
+
+### Pumpkin Pelikan
+
+![Pumpkin Pelikan](https://github.com/kahst/ScaryAviary/blob/main/assets/img/pumpkin_pelikan.png "Pumpkin Pelikan")
+
+### Apocalyptic Antbird
+
+![Apocalyptic Antbird](https://github.com/kahst/ScaryAviary/blob/main/assets/img/apocalyptic_antbird.png "Apocalyptic Antbird")
+
+### Supernatural Sunbird
+
+![Supernatural Sunbird](https://github.com/kahst/ScaryAviary/blob/main/assets/img/supernatural_sunbird.png "Supernatural Sunbird")
