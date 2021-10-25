@@ -28,7 +28,7 @@
 }
 
 .navbar-hide .navbar-bg {
-    top: -75px;
+    top: -150px;
 }
 
 /* Header */
@@ -103,6 +103,15 @@
 }
 .about-section p {
     font-size: .8rem;
+}
+.about-section a {
+    color: #ce372d;
+    text-decoration: none;
+}
+.about-section a:hover,
+.about-section a:focus {
+    color: #bd281e;
+    text-decoration: underline;
 }
 @media (min-width: 768px) {
     .about-section {
