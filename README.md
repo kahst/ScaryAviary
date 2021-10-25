@@ -19,9 +19,9 @@ This is a GitHub pages webpage: https://kahst.github.io/ScaryAviary/
 
 ![Eerie Eagle](https://github.com/kahst/ScaryAviary/blob/main/assets/img/eerie_eagle.png "Eerie Eagle")
 
-### Pumpkin Pelikan
+### Pumpkin Pelican
 
-![Pumpkin Pelikan](https://github.com/kahst/ScaryAviary/blob/main/assets/img/pumpkin_pelikan.png "Pumpkin Pelikan")
+![Pumpkin Pelican](https://github.com/kahst/ScaryAviary/blob/main/assets/img/pumpkin_pelican.png "Pumpkin Pelican")
 
 ### Apocalyptic Antbird
 
